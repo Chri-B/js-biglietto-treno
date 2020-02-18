@@ -2,4 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #ececec;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: red;
+}
+
+span {
+    font-size: 20px;
+    color: blue;
+    padding: 0 20px;
+    font-style: normal;
+}
+
+p {
+    font-style: italic;
+    padding-top: 20px;
 }
