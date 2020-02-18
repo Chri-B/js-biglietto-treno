@@ -21,8 +21,4 @@ if ( anniPasseggero < 18 ) { // insieme dei passeggeri minorenni con sconto 20%
     document.getElementById('costoFinale').innerHTML = prezzoPienoBiglietto.toFixed(2) + '€';
 }
 
-document.getElementById('comparsa').setAttribute('class','visible');
-
-console.log(prezzoPienoBiglietto);
-console.log(prezzoBiglietto20);
-console.log(prezzoBiglietto40);
+document.getElementById('comparsa').setAttribute('class','visible'); // rendo visibile il div #comparsa solo dopo la compilazione del prompt
